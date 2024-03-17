@@ -1,4 +1,2 @@
-increments = [6,5,4,3,2,1,0,1,2,3,4,5,6]
-
-for i in increments:
-    print(i)
+increments = [1,2,3,4,5,6,5,4,3,2,1]
+for i in increments: print(" "*abs(i-6) + "*"*i + "*"*(i-1)) 
